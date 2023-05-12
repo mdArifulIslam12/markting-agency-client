@@ -1,0 +1,118 @@
+
+.outStandingUi-section{
+        background: url(https://wp.xpeedstudio.com/seocify/home-eighteen/wp-content/themes/seocify/assets/images/tab-bg.png);
+    
+        background-repeat: no-repeat;
+        background-size: 550px 350px;
+        background-position: 100% 100%;
+        border-radius: 10px;
+    }
+    
+    
+    .outStandingUi-section .img img{
+        width: 381px;
+        height: 281px;
+    }
+    .outStandingUi-section .img-1 img{
+        width: 36px;
+        height: 40px;
+    }
+    .outStandingUi-section .img-2 img{
+        width: 40px;
+        height: 40px;
+    }
+    .outstanding-ui-section-details h3{
+        color: #000;
+        font-weight: 500;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .outstanding-ui-section-details .details{
+        font-size: 17px;
+        font-weight: 500;
+        color: #7A7A7A;
+    }
+    .outstanding-img-section p{
+        font-size: 17px;
+        font-weight: 500;
+        color: #7A7A7A;
+    
+    }
+    .outStandingUi-section-1{
+        /* background: url(https://wp.xpeedstudio.com/seocify/home-eighteen/wp-content/themes/seocify/assets/images/tab-bg.png); */
+        box-shadow: 0 10px  30px 0 rgba(248,72,139,.2);
+    }
+    .outStandingUi-section-2{
+        /* background: url(https://wp.xpeedstudio.com/seocify/home-eighteen/wp-content/themes/seocify/assets/images/tab-bg.png); */
+        box-shadow: 0 10px 30px 0 rgba(83,194,3,.2);
+    }
+    .outStandingUi-section-3{
+        /* background: url(https://wp.xpeedstudio.com/seocify/home-eighteen/wp-content/themes/seocify/assets/images/tab-bg.png); */
+        box-shadow: 0 10px 30px 0 rgba(247,107,28,.2);
+    }
+    .outStandingUi-section-4{
+        /* background: url(https://wp.xpeedstudio.com/seocify/home-eighteen/wp-content/themes/seocify/assets/images/tab-bg.png); */
+        box-shadow: 0 10px 30px 0 rgba(0,191,141,.2);
+    }
+    .outStandingUi-section-5{
+        /* background: url(https://wp.xpeedstudio.com/seocify/home-eighteen/wp-content/themes/seocify/assets/images/tab-bg.png); */
+        box-shadow: 0 10px 30px 0 rgba(196,68,251,.2);
+    }
+    
+    .outstanding-button-section-1,.outstanding-button-section-2,.outstanding-button-section-3,.outstanding-button-section-4,.outstanding-button-section-5{
+        padding: 12px 30px;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 50px;
+        border: none;
+        background-color: red;
+        color: #fff;
+        transition: .3s ease-in-out;
+        
+    }
+    .outstanding-button-section-1{
+        box-shadow: 0 10px 25px 0 rgba(248,72,139,.3);
+        background: #ff9b8f;
+        background: linear-gradient(90deg,#ff9b8f 0,#f8488b 100%);
+      
+    }
+    .outstanding-button-section-1:hover{
+        background: linear-gradient(90deg,#f8488b 0,#ff9b8f 100%);
+    }
+    .outstanding-button-section-2{
+        box-shadow: 0 10px 25px 0 rgba(0,191,141,.3);
+        background: #7ed500;
+        background: linear-gradient(90deg,#7ed500 0,#00bf8d 100%);
+      
+    }
+    .outstanding-button-section-2:hover{
+        background: linear-gradient(90deg,#00bf8d 0,#7ed500 100%);
+    }
+    .outstanding-button-section-3{
+        box-shadow: 0 10px 25px 0 rgba(247,107,28,.3);
+        background: #fad961;
+        background: linear-gradient(90deg,#fad961 0,#f76b1c 100%);
+      
+    }
+    .outstanding-button-section-3:hover{
+        background: linear-gradient(90deg,#f76b1c 0,#fad961 100%);
+    }
+    .outstanding-button-section-4{
+        box-shadow: 0 10px 25px 0 rgba(0,191,141,.3);
+    background: #32ecad;
+    background: linear-gradient(90deg,#32ecad 0,#43d6df 100%);
+      
+    }
+    .outstanding-button-section-4:hover{
+        background: linear-gradient(90deg,#43d6df 0,#32ecad 100%);
+    }
+    .outstanding-button-section-5{
+        box-shadow: 0 10px 25px 0 rgba(196,68,251,.3);
+        background: #8a63f2;
+        background: linear-gradient(90deg,#8a63f2 0,#c444fb 100%);
+      
+    }
+    .outstanding-button-section-5:hover{
+        background: linear-gradient(90deg,#c444fb 0,#8a63f2 100%);
+    }
+    

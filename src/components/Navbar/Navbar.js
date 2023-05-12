@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import './Navbar.css'
 
 const Navbar = () => {
     
@@ -15,14 +16,14 @@ const Navbar = () => {
     window.addEventListener("scroll", allScroolId);
   
     return (
-      <div className="fixed-top">
+      <div className="fixed-top"  id="scroll">
         <nav
           className={
             backgroundColor
               ? `navbar navbar-expand-lg navbar-light  bg-white shadow-lg`
               : `navbar navbar-expand-lg navbar-light  navbar-background`
           }
-          id="scroll"
+         
         >
           <div className="container py-2 ">
             <img
@@ -46,11 +47,6 @@ const Navbar = () => {
                 <li className="nav-item">
                   <NavLink to={"/"} className="navbar-links">
                     Home
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink to={"/tours"} className="navbar-links">
-                    Tours
                   </NavLink>
                 </li>
                 <li className="nav-item">

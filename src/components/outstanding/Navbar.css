@@ -1,0 +1,100 @@
+#outstanding-nav-link-1,
+#outstanding-nav-link-2,
+#outstanding-nav-link-3,
+#outstanding-nav-link-4,
+#outstanding-nav-link-5 {
+  padding: 39px 15px;
+  background-color: rgba(248, 72, 139, 0.071);
+  border: 0;
+  border-radius: 5px;
+  font-size: 17px;
+}
+#outstanding-nav-link-2 {
+  background-color: rgba(83, 194, 3, 0.071);
+}
+#outstanding-nav-link-3 {
+  background-color: rgba(254, 162, 41, 0.071);
+}
+#outstanding-nav-link-4 {
+  background-color: rgba(50, 236, 173, 0.071);
+}
+#outstanding-nav-link-5 {
+  background-color: rgba(196, 68, 251, 0.071);
+}
+.outstandingNav p svg {
+  width: 36px;
+  height: 35px;
+}
+.outstanding-nav-link-1 p svg {
+  color: #f8488b;
+}
+.outstanding-nav-link-2 p svg {
+  color: #53c203;
+}
+.outstanding-nav-link-2 p  {
+  color: #53c203;
+}
+.outstanding-nav-link-3 p svg {
+  color: #fea229;
+}
+.outstanding-nav-link-3 p  {
+  color: #fea229;
+}
+.outstanding-nav-link-4 p svg {
+  color: #32ecad;
+}
+.outstanding-nav-link-4 p  {
+  color: #32ecad;
+}
+.outstanding-nav-link-5 p svg {
+  color: #8a63f2;
+}
+
+.outstanding-nav-link-1.active,
+.outstanding-nav-link-2.active,
+.outstanding-nav-link-3.active,
+.outstanding-nav-link-4.active,
+.outstanding-nav-link-5.active {
+  color: white;
+}
+.outstanding-nav-link-1.active:hover,
+.outstanding-nav-link-2.active:hover,
+.outstanding-nav-link-3.active:hover,
+.outstanding-nav-link-4.active:hover,
+.outstanding-nav-link-5.active:hover {
+  color: white;
+}
+.nav-link p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-link.active p{
+  color: white;
+}
+.outstanding-nav-link-1.active {
+  box-shadow: none;
+  color: #fff;
+  background: #ff9b8f;
+  background: linear-gradient(-35deg, #ff9b8f 0, #f8488b 100%);
+}
+.active p svg{
+    color: white;
+}
+
+.outstanding-nav-link-2.active { 
+    background: #7ed500;
+    background: linear-gradient(-35deg,#7ed500 0,#00bf8d 100%);
+}
+    .outstanding-nav-link-3.active { 
+        background: #fad961;
+        background: linear-gradient(-35deg,#fad961 0,#f76b1c 100%);
+    }
+    .outstanding-nav-link-4.active { 
+        background: #32ecad;
+        background: linear-gradient(-35deg,#32ecad 0,#43d6df 100%);
+    
+    }
+    .outstanding-nav-link-5.active { 
+        background: #8a63f2;
+        background: linear-gradient(-35deg,#8a63f2 0,#c444fb 100%);
+    }

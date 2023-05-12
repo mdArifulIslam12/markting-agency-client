@@ -4,7 +4,8 @@
   }
   li a {
     text-decoration: none;
-    color: black;
+    color: white;
+    /* color: black; */
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 600;
@@ -14,5 +15,6 @@
     letter-spacing: 0.3px;
   }
   .navbar-background {
-    background-color: rgba(255, 255, 255, 0.627);
+    /* background-color: rgba(255, 255, 255, 0.627); */
+    background-color: purple;
   }
