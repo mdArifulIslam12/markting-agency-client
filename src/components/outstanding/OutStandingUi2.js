@@ -2,7 +2,10 @@ import React from 'react';
 
 const OutStandingUi2 = () => {
     return (
-        <div className="col-lg-12 outStandingUi-section outStandingUi-section-2 show" id='2'>
+        <div data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-easing="ease-in"
+            className="col-lg-12 outStandingUi-section outStandingUi-section-2 show" id='2'>
             <div className="row">
                 <div className="col-lg-5 text-center h-100 my-auto img ">
                     <img src="https://wp.xpeedstudio.com/seocify/home-eighteen/wp-content/uploads/sites/30/2018/12/t2_icon_big.png" className='mt-3' alt="" />

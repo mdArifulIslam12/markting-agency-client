@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+.home-banner-bg{
+    background-image: url(https://samartheme3.vercel.app/images/background/bg5.png), url(https://samartheme3.vercel.app/images/background/bg6.png),linear-gradient(90deg,#111c58 0,#5c2782 51%,#111c58);
+   padding-top: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    position: relative;
+    background-position: bottom,top;
+    z-index: -2;
+}
+
+.home-banner-bg::after{
+    background-image: url(https://samartheme3.vercel.app/_next/static/media/pic2.8176d07771082b3af7efa7c9fd57e095.png);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: -1;
+}
+.home-page-img-section img{
+    width: 540px;
+    height: 470px;
+}
+.home-page-img-section img{
+    animation: myAnimation 5s infinite;
+    /* position: relative;
+    animation: myAnimation 5s ease-in-out infinite; */
+
+}
+
+
+.home-banner-bg h2{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size:50px;
+    font-weight: 700;
+
+}
+.home-banner-bg p{
+    color: white;
+}
+
+
+@keyframes myAnimation {
+    /* 0% { left: 0; }
+    50% { left: 10px; }
+    100% { left: 0; } */
+    0% {     transform: rotate(-1deg) translate(-2px,-2px); }
+    50% { transform: rotate(1deg) translate(2px,2px); }
+    100% {     transform: rotate(-1deg) translate(-2px,-2px); }
+  }

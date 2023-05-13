@@ -56,6 +56,7 @@
 .outstanding-nav-link-4.active,
 .outstanding-nav-link-5.active {
   color: white;
+  position: relative;
 }
 .outstanding-nav-link-1.active:hover,
 .outstanding-nav-link-2.active:hover,
@@ -64,6 +65,42 @@
 .outstanding-nav-link-5.active:hover {
   color: white;
 }
+.outstanding-nav-link-1.active::before,
+.outstanding-nav-link-2.active::before,
+.outstanding-nav-link-4.active::before,
+.outstanding-nav-link-3.active::before,
+.outstanding-nav-link-5.active::before
+{
+  position: absolute;
+  content: "";
+  bottom: -40px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 40px;
+  width: 40px;
+  border-top: solid #ee867a;
+  border-left: solid transparent;
+  border-right: solid transparent;
+  border-width: 20px;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: all .4s ease;
+
+}
+
+.outstanding-nav-link-2.active::before{
+  border-top-color: #83d90b;
+}
+.outstanding-nav-link-3.active::before{
+  border-top-color:  #f8d34d;
+}
+.outstanding-nav-link-4.active::before{
+  border-top-color:  #32ecad;
+}
+.outstanding-nav-link-5.active::before{
+  border-top-color:  #8a63f2;
+} 
 .nav-link p {
   font-size: 18px;
   font-weight: 500;
