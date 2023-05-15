@@ -5,7 +5,7 @@ import Home from './pages/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css'; 
 import Footer from './components/Footer/Footer';
 import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
@@ -22,11 +22,20 @@ function App() {
       setAosAll(false)
     }
   }, [windowWidth])
+  // useEffect(()=>{
+  //   AOS.refresh();
+  //   if (aosAll) {
+  //     AOS.init({disable: true}); 
+  //   }else{
+  //     AOS.init({disable: false}); 
+      
+  //   }
+  // },[aosAll])
   window.addEventListener('resize', function() {
     var windowWidth = window.innerWidth;
     setWindowWidth(windowWidth)
   });
-  AOS.init({disable: aosAll,});
+  AOS.init({disable: false}); 
   return (
     <div >
       <Navbar/>
