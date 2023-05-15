@@ -5,6 +5,7 @@ import Subscribe from '../../components/Subscribe/Subscribe';
 import AutoServiceLogo from '../../components/AutoServiceLogo/AutoServiceLogo';
 
 
+
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
@@ -24,6 +25,7 @@ const Blogs = () => {
         </div>
         <Subscribe/>
         <AutoServiceLogo/>
+
     </div>
     );
 };

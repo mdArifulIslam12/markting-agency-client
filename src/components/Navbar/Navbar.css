@@ -1,11 +1,10 @@
 .header-nav-img {
-    width: 162px;
+    width: 180px;
     height: 60px;
   }
   li a {
     text-decoration: none;
     color: white;
-    /* color: black; */
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 600;
@@ -14,15 +13,21 @@
     line-height: 20px;
     letter-spacing: 0.3px;
   }
+.background-color{
+  /* background-color: #695b5b; */
+  background-color: #3c3535;
+  /* background-color: white; */
+}
 
   #black{
-    color: black;
+    color: white;
   }
   @media only screen and (max-width: 600px) {
+  
     .navbar-background {
       background-color: rgba(255, 255, 255);
     }
-    li a{
+    /* li a{
       color: black;
-    }
+    } */
   }
