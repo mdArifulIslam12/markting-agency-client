@@ -84,6 +84,8 @@
     .home-page-img-section img{
         width: 348px;
         height: 250px;
+        margin-top: 40px;
+        padding-left: 20px;
     }
     .home-banner-bg::after{
         display: none;

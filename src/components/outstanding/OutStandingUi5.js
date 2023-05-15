@@ -3,7 +3,7 @@ import React from 'react';
 const OutStandingUi5 = () => {
     return (
         <div 
-            data-aos="fade-left"
+            data-aos="flip-down"
             data-aos-duration="500"
             data-aos-easing="ease-in"
             

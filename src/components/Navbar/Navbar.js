@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'
+import CustomLink from '../CustomLink/CustomLink';
 
 const Navbar = () => {
     
@@ -46,30 +47,30 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
                 <li className="nav-item">
-                  <NavLink to={"/"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
+                  <CustomLink to={"/"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     Home
-                  </NavLink>
+                  </CustomLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/service"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
+                  <CustomLink to={"/service"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     Service
-                  </NavLink>
+                  </CustomLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/blog"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
+                  <CustomLink to={"/blog"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     Blogs
-                  </NavLink>
+                  </CustomLink>
                 </li>
   
                 <li className="nav-item">
-                  <NavLink to={"/about"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
+                  <CustomLink to={"/about"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     About Us
-                  </NavLink>
+                  </CustomLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/contactUs"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
+                  <CustomLink to={"/contactUs"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     Contact Us
-                  </NavLink>
+                  </CustomLink>
                 </li>
   
                 {/* <li className="nav-item">

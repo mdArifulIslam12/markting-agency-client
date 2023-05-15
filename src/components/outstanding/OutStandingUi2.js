@@ -2,7 +2,7 @@ import React from 'react';
 
 const OutStandingUi2 = () => {
     return (
-        <div data-aos="fade-left"
+        <div data-aos="flip-up"
             data-aos-duration="500"
             data-aos-easing="ease-in"
             className="col-lg-12 outStandingUi-section outStandingUi-section-2 show" id='2'>

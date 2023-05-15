@@ -20,6 +20,9 @@
   }
   @media only screen and (max-width: 600px) {
     .navbar-background {
-      background-color: rgba(255, 255, 255, 0.627);
+      background-color: rgba(255, 255, 255);
+    }
+    li a{
+      color: black;
     }
   }

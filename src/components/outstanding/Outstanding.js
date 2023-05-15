@@ -8,6 +8,7 @@ import OutStandingUi4 from './OutStandingUi4';
 import OutStandingUi5 from './OutStandingUi5';
 import { useSelector } from 'react-redux';
 
+
 const Outstanding = () => {
     const {id} = useSelector(state => state.Outstanding)
     return (
