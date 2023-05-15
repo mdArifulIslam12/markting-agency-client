@@ -14,6 +14,7 @@ const Navbar = () => {
       }
     };
     window.addEventListener("scroll", allScroolId);
+    
   
     return (
       <div className="fixed-top"  id="scroll">
@@ -21,7 +22,7 @@ const Navbar = () => {
           className={
             backgroundColor
               ? `navbar navbar-expand-lg navbar-light  bg-white shadow-lg`
-              : `navbar navbar-expand-lg navbar-light  navbar-background`
+              : `navbar navbar-expand-lg navbar-light  navbar-background `
           }
          
         >
@@ -45,35 +46,28 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
                 <li className="nav-item">
-                  <NavLink to={"/"} className="navbar-links">
+                  <NavLink to={"/"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/destination"} className="navbar-links">
-                    Destination
+                  <NavLink to={"/service"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
+                    Service
                   </NavLink>
                 </li>
-                {/* <li className="nav-item">
-                  {user && (
-                    <NavLink to={"/dashborad"} className="navbar-links">
-                      Dashborad
-                    </NavLink>
-                  )}
-                </li> */}
                 <li className="nav-item">
-                  <NavLink to={"/blogs"} className="navbar-links">
+                  <NavLink to={"/blog"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     Blogs
                   </NavLink>
                 </li>
   
                 <li className="nav-item">
-                  <NavLink to={"/about"} className="navbar-links">
+                  <NavLink to={"/about"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     About Us
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/contactUs"} className="navbar-links">
+                  <NavLink to={"/contactUs"} className="navbar-links" id={backgroundColor ? 'black':'white'}>
                     Contact Us
                   </NavLink>
                 </li>

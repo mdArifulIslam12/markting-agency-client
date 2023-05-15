@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.shareHeaderBanner {
+    /* margin-top: 100px; */
+    background-image: url(https://samartheme3.vercel.app/images/banner/bnr2.png),linear-gradient(90deg,#111c58 0,#5c2782 51%,#111c58);;
+  background-size: cover, 100%;
+  background-position: 50%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative;
+    /* z-index: -1; */
+    margin-bottom: 40px;
+    height: 480px;
+  }
+  .shareHeaderBanner::before {
+    content: "";
+    background-image: url(https://samartheme3.vercel.app/_next/static/media/bnr4.5b33c149ded4e9c37ad0a9b03cb975b3.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .shareHeaderBanner h2 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 0.3px;
+  }
+  .shareHeaderBanner h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  

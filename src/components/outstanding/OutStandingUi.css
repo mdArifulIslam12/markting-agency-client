@@ -74,6 +74,7 @@
         box-shadow: 0 10px 25px 0 rgba(248,72,139,.3);
         background: #ff9b8f;
         background: linear-gradient(90deg,#ff9b8f 0,#f8488b 100%);
+       
       
     }
     .outstanding-button-section-1:hover{
@@ -116,3 +117,10 @@
         background: linear-gradient(90deg,#c444fb 0,#8a63f2 100%);
     }
     
+    @media only screen and (max-width: 600px) {
+        .outStandingUi-section .img img{
+            width: 360px;
+            height: 265px;
+        }
+   
+    }
