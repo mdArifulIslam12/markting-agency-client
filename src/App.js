@@ -11,6 +11,10 @@ import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Services from './pages/Services/Services';
 import Contacts from './pages/Contacts/Contacts';
+import BlogDetails from './pages/BlogDetails/BlogDetails';
+import { FaArrowUp } from 'react-icons/fa'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   // const [aosAll,setAosAll] = useState(false)
@@ -48,18 +52,33 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     // }, [aosAll])
     AOS.init(); 
+
+    const [displayNone,setDisplayNone] = useState(false)
+
+    const allScroolId = () =>{
+      if(window.scrollY >= 200){
+        setDisplayNone(true)
+      }else{
+        setDisplayNone(false)
+      }
+    }
+    window.addEventListener('scroll',allScroolId)
   return (
-    <div >
+    <div className='app' id='scrool'>
       <Navbar/>
      <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/blog' element={<Blog/>} />
-      <Route path='/service' element={<Services/>} />
-      <Route path='/contactUs' element={<Contacts/>} />
+      <Route path='about' element={<About/>} />
+      <Route path='blog' element={<Blog/>} />
+      <Route path='blog-details/:id' element={<BlogDetails/>} />
+      <Route path='service' element={<Services/>} />
+      <Route path='contactUs' element={<Contacts/>} />
      </Routes>
+     <div className={displayNone ? 'all-scrool displayBlock' : 'all-scrool displayNone'}>
+      <a href="#scrool"><FaArrowUp/></a>
+      </div>   
      <Footer/>
-
+<ToastContainer/>
     </div>
   );
 }
