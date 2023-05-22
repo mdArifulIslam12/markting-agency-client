@@ -14,6 +14,7 @@ import BlogDetails from './pages/BlogDetails/BlogDetails';
 import { FaArrowUp } from 'react-icons/fa'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function App() {
   // const [aosAll,setAosAll] = useState(false)
@@ -78,6 +79,14 @@ function App() {
       </div>   
      <Footer/>
 <ToastContainer/>
+{/* <MessengerCustomerChat
+    pageId="300712373600974"
+    appId="589016119877588"
+    themeColor="#0084FF"
+    loggedInGreeting="Welcome! How can we assist you today?"
+    loggedOutGreeting="Please log in to chat with us."
+    shouldShowDialog={true}
+  /> */}
     </div>
   );
 }

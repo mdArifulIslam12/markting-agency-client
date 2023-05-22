@@ -27,4 +27,7 @@
     box-shadow: 0 0 0 0 rgb(37 189 193);
     transform: translateY(6px);
   }
- 
+ .date-blog{
+  margin-top: -7px;
+  font-size: 22px;
+ }
