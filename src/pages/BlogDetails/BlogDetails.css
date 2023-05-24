@@ -4,7 +4,7 @@
     color: #1f2471;
     position: relative;
 }
-.all-title-section::before{
+.all-title-section::before,.contact-us-title::before{
     background-image: linear-gradient(90deg,#ef146e 0,#fea958 51%,#ef146e);;
     background-size: 200%;
     width: 45px;
@@ -16,7 +16,7 @@
     border-radius: 15px;
     right: 40px;
 }
-.all-title-section::after{
+.all-title-section::after,.contact-us-title::after{
     background-image: linear-gradient(90deg,#ef146e 0,#fea958 51%,#ef146e);;
     background-size: 200%;
     width: 95px;
@@ -54,4 +54,17 @@
      
      box-shadow: 0 0 10px rgba(31,66,135,.2);
      
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-details-img-section{
+        width: 350px;
+        height: 210px;
+    }
+    .detalsBlog-1{
+        order: 2;
+    }
+    .detalsBlog-2{
+        order: 1;
+    }
 }

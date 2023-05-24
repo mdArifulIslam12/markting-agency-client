@@ -34,13 +34,13 @@ const DetailsBlogSingle = ({blog}) => {
     </div>
     }
     return (
-        <div className='container'>
+        <div className='container '>
             <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 detalsBlog-1">
                 <h2 className='all-title-section'>Rectent Blog</h2>
                 {content}
                 </div>
-                <div className="col-lg-8 mb-5">
+                <div className="col-lg-8 mb-5 detalsBlog-2">
                     <img src={img} alt="" className='blog-details-img-section' />
                     <p className="mt-4 mb-3 homebolg-date d-flex align-items-center"><span className='me-2 date-blog'><MdDateRange/></span><span>{date}</span></p>
                     <h2>{name}</h2>

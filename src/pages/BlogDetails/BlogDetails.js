@@ -22,7 +22,7 @@ const BlogDetails = () => {
       content =<DetailsBlogSingle blog={blog?.data}/>
     }
     return (
-        <div>
+        <div className=''>
             <div className="shareHeaderBanner">
                 <div className="container">
                     <div className="row d-flex justify-content-center text-center">
