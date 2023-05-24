@@ -1,0 +1,28 @@
+.about-img{
+    height: 600px;
+    width: 90%;
+    border-radius: 8px;
+}
+.about-section-details h3{
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #1f2471;
+}
+.about-section-details p{
+    line-height: 1.8;
+    font-size: 15px;
+    color: #646464;
+}
+.about-section-details h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+.about-section-details .about-icon svg{
+    color: red;
+    margin-right: 5px;
+}
+.about-mission{
+    font-weight: 600;
+    font-size: 25px;
+}

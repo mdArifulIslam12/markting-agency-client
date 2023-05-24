@@ -39,7 +39,7 @@ const Subscribe = () => {
                 <input
                   type="submit"
                   value="Subscribe"
-                  className="col-lg-3  inbox-input-button "
+                  className="col-lg-3  btn-header-banner "
                 />
               </form>
             </div>

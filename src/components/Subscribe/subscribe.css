@@ -1,6 +1,9 @@
 .inbox{
-    background-color: rgb(37 189 193);
+    /* background-color: rgb(37 189 193); */
     /* background-image:linear-gradient(90deg,#111c58 0,#5c2782 51%,#111c58); */
+    background-image: url(https://samartheme3.vercel.app/images/background/bg12.png),  linear-gradient(90deg,#111c58 0,#5c2782 51%,#111c58);;
+    background-size: cover, 200%;
+    background-repeat: no-repeat;
 }
 .inbox-input-button{
     color: rgb(37 189 193);
