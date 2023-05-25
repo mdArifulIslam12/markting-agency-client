@@ -1,0 +1,56 @@
+
+
+
+
+.fetures-img-section{
+    animation: myAnimation 5s infinite;
+}
+
+.fetures-icon-setcion{
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-size: 200%;
+    border-color: transparent!important;
+    transition: all .5s;
+    box-shadow: 0 2px 15px rgba(240,31,117,.5);
+    background-image: linear-gradient(90deg,#111c58 0,#5c2782 51%,#111c58);
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.fetures-details h3{
+    color: #111c58;
+    font-size: 33px;
+    font-weight: 500;
+}
+.fetures-details p{
+    line-height: 1.6;
+    color: #505489;
+    font-size: 15px;
+}
+.HomeFetures{
+    margin-top: 130px;
+    margin-bottom: 90px;
+}
+#homeFetures-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+#homeFetures-title::after{
+    left: 150px;
+}
+#homeFetures-title::before{
+    left: 100px;
+}
+
+
+@keyframes myAnimation {
+    0% {     transform: rotate(-1deg) translate(-2px,-2px); }
+    50% { transform: rotate(1deg) translate(2px,2px); }
+    100% {     transform: rotate(-1deg) translate(-2px,-2px); }
+  }

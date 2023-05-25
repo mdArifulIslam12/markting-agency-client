@@ -6,7 +6,7 @@ import { addBlogs } from "./blogSlice";
 export const blogApi = apiSlice.injectEndpoints({
     endpoints : (builder) => ({
         getBlogs : builder.query({
-            query : () => '/api/v1/products/blogs',
+            query : () => '/api/v1/blogs',
             async onQueryStarted (arg,{dispatch,queryFulfilled}){
                 try {
                     const blogs = await queryFulfilled
@@ -21,7 +21,7 @@ export const blogApi = apiSlice.injectEndpoints({
         
         ),
         getSingleBlog : builder.query({
-            query : (id) => `/api/v1/products/blog/${id}`,
+            query : (id) => `/api/v1/blogs/blog/${id}`,
             // providesTags : (result,error,arg) => [
             //     'blogs',
             //     {type:'blog',id:arg},
