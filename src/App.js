@@ -79,14 +79,14 @@ function App() {
       </div>   
      <Footer/>
 <ToastContainer/>
-{/* <MessengerCustomerChat
+<MessengerCustomerChat
     pageId="300712373600974"
     appId="589016119877588"
     themeColor="#0084FF"
     loggedInGreeting="Welcome! How can we assist you today?"
     loggedOutGreeting="Please log in to chat with us."
     shouldShowDialog={true}
-  /> */}
+  />
     </div>
   );
 }
